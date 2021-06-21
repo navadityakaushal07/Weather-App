@@ -22,7 +22,7 @@ const getWeather=async (city)=>
 {
     try{
 
-        const response= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=dab3af44de7d24ae7ff86549334e45bd`,
+        const response= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=`,
    
             {mode: 'cors'}
         );
